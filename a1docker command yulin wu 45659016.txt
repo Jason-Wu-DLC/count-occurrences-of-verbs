@@ -1,0 +1,6 @@
+#Build
+docker build --no-cache -t a1:wu .
+
+
+#Run
+docker run --name cca1_nginx_php -p 80:80 -d a1:wu
